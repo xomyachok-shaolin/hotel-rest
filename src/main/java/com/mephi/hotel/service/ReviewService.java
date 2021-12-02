@@ -1,10 +1,7 @@
 package com.mephi.hotel.service;
 
-import com.mephi.hotel.model.Payment;
 import com.mephi.hotel.model.Review;
-import com.mephi.hotel.repository.PaymentRepository;
 import com.mephi.hotel.repository.ReviewRepository;
-import com.sun.org.apache.regexp.internal.RE;
 import org.springframework.stereotype.Service;
 
 import java.util.stream.Stream;

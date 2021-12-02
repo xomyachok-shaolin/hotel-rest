@@ -1,6 +1,5 @@
 package com.mephi.hotel.service;
 
-import com.mephi.hotel.model.Room;
 import com.mephi.hotel.model.Service;
 import com.mephi.hotel.repository.ServiceRepository;
 
