@@ -40,7 +40,7 @@ public class User {
 
     @NotBlank(message = "Поле \"phone_number\" не может быть пустым")
     @Column(name = "phone_number", length = 30)
-    @Size(min = 10, max = 10)
+    @Size(min = 1, max = 10)
     private String phone_number;
 
     @NotBlank(message = "Поле \"email\" не может быть пустым")
@@ -50,7 +50,7 @@ public class User {
 
     @NotBlank(message = "Поле \"address\" не может быть пустым")
     @Column(name = "address", length = 500)
-    @Size(min = 10, max = 500)
+    @Size(min = 1, max = 500)
     private String address;
 
     @NotBlank(message = "Поле \"password\" не может быть пустым")
